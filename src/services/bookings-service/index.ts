@@ -5,7 +5,7 @@ import {
   forbiddenError,
 } from "@/errors";
 import { GetBooking } from "@/protocols";
-import bookingRepository from "@/repositories/booking-repositoyr";
+import bookingRepository from "@/repositories/booking-repository";
 import enrollmentRepository from "@/repositories/enrollment-repository";
 import ticketRepository from "@/repositories/ticket-repository";
 import { Booking } from "@prisma/client";
